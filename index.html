@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Document</title>
+
+
+</head>
+<body>
+    <header class="nav-container">
+        <div class="logo">
+           <h1 class="">3 in Line</h1> 
+        </div>
+        <div class="header-buttons">
+            <button class="button-action" id = "cleanButton"> <p>clean Board</p></button>  
+            <button class="button-action" id = "newGameButton"> <p>new Game</p></button>  
+        </div>
+        <div class="points">
+            <h3>point player 1 <p id="pointPlayer1">0</p> </h3> 
+            <h3>point player 2 <p id="pointPlayer2">0</p></h3>
+        </div>
+        <div class="games">
+            <div class="labels">
+                <label>num actual match</label>
+                <label>num limit match</label>
+            </div> 
+            <div class="nums">
+                <p id="numActualGame">1</p>
+                <p id="numLimitGame">undefine</p>
+            </div>         
+        </div>
+    </header>
+    <div class = "container" id="boardContainer">
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+        <button class="boardButton"></button>
+    </div>
+    <script src="./js/board.js" type="module"></script>
+</body>
+</html>
